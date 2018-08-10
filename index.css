@@ -22,7 +22,7 @@ body {
 
 .jumbotron {
 	background-image: url("images/blossom.jpg");
-	background-size: 100%;
+	background-size: cover;
 	opacity: .9;
 }
 
