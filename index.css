@@ -20,6 +20,12 @@ body {
 	margin: 0;
 }
 
+.jumbotron {
+	background-image: url("images/blossom.jpg");
+	background-size: 100%;
+	opacity: .9;
+}
+
 .section-home {
 	height: 100vh;
 }
