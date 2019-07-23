@@ -1,0 +1,38 @@
+.section-home {
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	background-color: yellow;
+}
+
+.section-home .center {
+	text-align: center;
+	line-height: 3vw;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.section-home .greeting {
+	top: 40%;
+}
+
+.section-home .greeting h1 {
+	text-transform: uppercase;
+	font-size: 5vw;
+}
+
+.section-home .greeting h3 {
+	font-size: 2vw;
+	/*font-family: "Lucida Console";*/
+}
+
+.section-home .scroll-down {
+	top: 90%;
+	color: black;
+}
+
+.section-home .scroll-down:hover {
+	color: white;
+}

@@ -1,0 +1,62 @@
+{
+	"navigation": [
+		{
+			"name": "Home",
+			"url": "#0"
+		},
+		{
+			"name": "About",
+			"url": "#1"
+		},
+		{
+			"name": "Portfolio",
+			"url": "#2"
+		},
+		{
+			"name": "Skills",
+			"url": "#3"
+		},
+		{
+			"name": "Contact",
+			"url": "#4"
+		}
+	],
+	"home": {
+		"greeting": "Hey, I'm",
+		"rotatingDescription": [
+			"Jessica Wong.",
+			"A Developer.",
+			"A Creator."
+		]
+	},
+	"about": {
+		"title": "lorem ipsum",
+		"description": "lorem ipsum"
+	},
+	"portfolio": [
+		{
+			"name": "project name",
+			"description": "lorem ipsum",
+			"displayImage": "none",
+			"imageSlideshow": "none"
+		}
+	],
+	"skills": "things I know",
+	"contact": [
+		{
+			"name": "Email",
+			"url": "mailto:jessikw2@uci.edu",
+			"className": "fa fa-mail"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/wong-jessica/",
+			"className": "fa fa-linkedin"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/wong-jessica",
+			"className": "fa fa-github"
+		}
+	]
+}

@@ -1,46 +1,38 @@
-import React, {Component} from 'react';
-import Table from './Table';
+import React, { Component } from 'react';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import websiteData from './websiteData.json';
 
 class App extends Component {
-	state = {
-		employees: [
-			{
-				name: 'Jessica',
-				job: 'Coder',
-			},
-		],
-	}
 
-	removeEmployee = index => {
-		const {employees} = this.state;
-
-		this.setState({
-			employees: employees.filter((employee, i) => {
-				return i !== index
-			}),
-		});
-
+	constructor(props) {
+		super(props);
+		this.state = {
+			websiteData: websiteData,
+		};
 	}
 
 	render() {
-		// const employees = [
-		// 	{
-		// 		name: 'Jessica',
-		// 		job: 'Coder',
-		// 	},
-		// 	{
-		// 		name: 'Jeannie',
-		// 		job: 'Cook',
-		// 	},
-		// ]
-		const {employees} = this.state;
-
 		return (
-			<div className = "App">
-				<h1>Hello, world! Website underconstruction</h1>
-				<Table data={employees} remove={this.removeEmployee}/>
+			<div className="App">
+				<a id="0" />
+				<Home homeData={this.state.websiteData['home']} /> 
+				<Navigation navData={this.state.websiteData['navigation']} />
+				<a id="1" />
+				<About aboutData={this.state.websiteData['about']} />
+				<a id="2" />
+				<Portfolio portfolioData={this.state.websiteData['portfolio']} />
+				<a id="3" />
+				<Skills skillData={this.state.websiteData['skills']} />
+				<a id="4" />
+				<Contact contactData={this.state.websiteData['contact']} />
+
 			</div>
-		);
+		)
 	}
 }
 
