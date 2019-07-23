@@ -1,6 +1,4 @@
-nav {
-	position: sticky;
-	top: 0;
+.navbar {
 	background-color: gray;
 	min-height: 49px;
 	font-family: Montserrat;
@@ -13,7 +11,6 @@ nav {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	float: left;
 	display: block;
 }
 
@@ -22,37 +19,38 @@ nav {
 	text-decoration: none;
 }
 
-.nav-collapse-icon {
+.nav-expand {
+	float: left;
+}
+
+.nav-collapse .nav-collapse-links {
+	display: none;
+}
+
+.nav-collapse i {
 	visibility: hidden;
 	padding: 7px 15px;
 	color: white;
+	float: right;
 }
 
 @media screen and (max-width: 1000px) {
-	.nav-links {
+	.nav-expand {
 		display: none;
 	}
 
-	.nav-collapse-icon {
-		float: right;
-		visibility: visible;
-	}
-
-	.collapse {
-		position: relative;
-	}
-
-	.collapse .nav-links {
-		float: none;
-		display: block;
-		text-align: center;
+	.nav-links {
 		border-bottom: 1px solid white;
 	}
 
-	.collapse .nav-collapse-icon {
+	.nav-collapse .nav-collapse-links.collapse{
+		display: block;
+	}
+
+	.nav-collapse i {
+		visibility: visible;
 		position: absolute;
 		right: 0;
 		top: 0;
 	}
-
 }

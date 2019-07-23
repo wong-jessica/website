@@ -21,7 +21,9 @@ class App extends Component {
 			<div className="App">
 				<a id="0" />
 				<Home homeData={this.state.websiteData['home']} /> 
-				<Navigation navData={this.state.websiteData['navigation']} />
+				<div className="sticky">
+					<Navigation navData={this.state.websiteData['navigation']} />
+				</div>
 				<a id="1" />
 				<About aboutData={this.state.websiteData['about']} />
 				<a id="2" />
@@ -30,7 +32,6 @@ class App extends Component {
 				<Skills skillData={this.state.websiteData['skills']} />
 				<a id="4" />
 				<Contact contactData={this.state.websiteData['contact']} />
-
 			</div>
 		)
 	}
