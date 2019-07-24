@@ -1,15 +1,17 @@
 .navbar {
-	background-color: gray;
+	background-color: white;
 	opacity: 0.5;
 	min-height: 49px;
 	font-family: Montserrat;
 	text-transform: uppercase;
+	padding-left: 5vw;
 }
 
 .nav-links {
 	padding: 15px 10px;
 	font-size: 15px;
-	color: white;
+	color: black;
+	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	display: block;
@@ -31,17 +33,21 @@
 .nav-collapse i {
 	visibility: hidden;
 	padding: 7px 15px;
-	color: white;
+	color: gray;
 	float: right;
 }
 
 @media screen and (max-width: 1000px) {
+	.navbar {
+		padding-left: 0;
+	}
+
 	.nav-expand {
 		display: none;
 	}
 
 	.nav-links {
-		border-bottom: 1px solid white;
+		border-bottom: 1px solid gray;
 	}
 
 	.nav-collapse .nav-collapse-links.collapse{

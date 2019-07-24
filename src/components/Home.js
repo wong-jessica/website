@@ -9,7 +9,9 @@ class Home extends Component {
 		const description = homeData.rotatingDescription[0];
 
 		return (
-			<div className="section-home">
+			<div className="section section-home">
+				<div className="background-color"></div>
+				<div className="background"></div>
 				<div className="greeting center">
 					<h3>{greeting}</h3>
 					<h1>{description}</h1>

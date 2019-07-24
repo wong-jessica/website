@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
-// import '../styles/skills.css';
+import '../styles/skills.css';
 
 class Skills extends Component {
 	render() {
+		const { skillData } = this.props;
+
 		return (
-			<div className="section-skills">
+			<div className="section section-skills">
+				<div className="title">{skillData.title}</div>
 			</div>
 		)
 	}

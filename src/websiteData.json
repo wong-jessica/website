@@ -30,33 +30,78 @@
 		]
 	},
 	"about": {
-		"title": "lorem ipsum",
+		"title": "About",
 		"description": "lorem ipsum"
 	},
-	"portfolio": [
-		{
-			"name": "project name",
-			"description": "lorem ipsum",
-			"displayImage": "none",
-			"imageSlideshow": "none"
-		}
-	],
-	"skills": "things I know",
-	"contact": [
-		{
-			"name": "Email",
-			"url": "mailto:jessikw2@uci.edu",
-			"className": "fa fa-mail"
-		},
-		{
-			"name": "LinkedIn",
-			"url": "https://www.linkedin.com/in/wong-jessica/",
-			"className": "fa fa-linkedin"
-		},
-		{
-			"name": "Github",
-			"url": "https://github.com/wong-jessica",
-			"className": "fa fa-github"
-		}
-	]
+	"portfolio": {
+		"title": "Portfolio",
+		"projects": [
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum",
+				"displayImage": "../images/othello3.png",
+				"imageSlideshow": "none"
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills"
+	},
+	"contact": {
+		"title": "Contact",
+		"message": "Let's get in touch and create something great.",
+		"icons": [
+			{
+				"name": "Email",
+				"url": "mailto:jessikw2@uci.edu",
+				"className": "fas fa-envelope-square"
+			},
+			{
+				"name": "LinkedIn",
+				"url": "https://www.linkedin.com/in/wong-jessica/",
+				"className": "fab fa-linkedin"
+			},
+			{
+				"name": "Github",
+				"url": "https://github.com/wong-jessica",
+				"className": "fab fa-github-square"
+			}
+		]
+	}
 }

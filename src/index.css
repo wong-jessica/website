@@ -1,19 +1,74 @@
 html {
 	max-width: 100%;
+	scroll-behavior: smooth;
+	background-color: #5b5b5b;
 }
 
 body {
 	font-size: 1em;
-	font-family: 'PT Serif', serif;
-	margin: 0px 0px 0px 0px;
+	/*font-family: "Roboto Condensed", sans-serif;*/
+	margin: 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Arial Black";
-}
+/*h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro", sans-serif;
+}*/
 
 .sticky {
 	position: sticky;
 	top: 0;
 	z-index: 10;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.section {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.title {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: calc(2em + 2vw);
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 75px 0px 50px 0px;
+	color: white;
+	position: relative;
+}
+
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	/*opacity: 1;*/
+}
+
+.background-color {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*opacity: .7;*/
 }
