@@ -7,7 +7,7 @@
 }
 
 .section-home .background {
-	background-image: url("/images/header6.jpg");
+	background-image: url("../images/header6.jpg");
 	background-position: right center;
 	background-attachment: fixed;
 	opacity: .7;
