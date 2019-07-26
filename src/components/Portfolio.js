@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom'; 
+// import ReactDOM from 'react-dom'; 
 import JwModal from './JwModal';
 import Carousel from 'nuka-carousel';
 import '../styles/portfolio.css';
@@ -16,7 +16,7 @@ const Projects = props => {
 					</div>
 					<JwModal id={index}>
 						<div className="slideshow-images">
-							<Carousel onClick={ReactDOM.render()}>
+							<Carousel>
 								{project.imageSlideshow.map(function(image, index) {
 									return <img src={image} key={index} alt="unable" />;
 								})}
