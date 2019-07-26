@@ -40,43 +40,46 @@
 				"name": "Othello",
 				"skills": "Python",
 				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": [
+					"https://www.askideas.com/media/24/Awesome-Orange-And-White-Norwegian-Forest-Cat.jpg", 
+					"https://i.pinimg.com/originals/ca/ef/34/caef34f0b775de4f921d2d4c7bc94054.jpg",
+					"http://en.protothema.gr/wp-content/uploads/2017/02/c21-605x418.jpg"]
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem asdf",
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"description": "lorem ipsum ipsumm",
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			},
 			{
 				"name": "Othello",
 				"skills": "Python",
 				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			},
 			{
 				"name": "Othello",
 				"skills": "Python",
 				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			},
 			{
 				"name": "Othello",
 				"skills": "Python",
 				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
-			},
-			{
-				"name": "Othello",
-				"skills": "Python",
-				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
-			},
-			{
-				"name": "Othello",
-				"skills": "Python",
-				"description": "lorem ipsum",
-				"displayImage": "../images/othello3.png",
-				"imageSlideshow": "none"
+				"displayImage": "https://raw.githubusercontent.com/wong-jessica/website/master/src/images/othello3.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			}
 		]
 	},

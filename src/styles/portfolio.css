@@ -75,3 +75,13 @@
 	background-color: pink;
 	color: white;
 }
+
+/*.slideshow-images {
+	max-height:px;
+}*/
+
+.slideshow-images img {
+	/*max-height: 300px;*/
+	object-fit: cover;
+	max-height: 400px;
+}
