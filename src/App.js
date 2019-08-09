@@ -5,14 +5,15 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import websiteData from './websiteData.json';
+// import websiteData from './websiteData.json';
 
 class App extends Component {
 
 	constructor(props) {
 		super(props);
 		this.state = {
-			websiteData: websiteData,
+			// websiteData: websiteData,
+			websiteData: JSON.parse(this.props.appData),
 		};
 	}
 
@@ -26,8 +27,10 @@ class App extends Component {
 				</div>
 				<a id="1" />
 				<About aboutData={this.state.websiteData['about']} />
+				<hr/>
 				<a id="2" />
 				<Portfolio portfolioData={this.state.websiteData['portfolio']} />
+				<hr/>
 				<a id="3" />
 				<Skills skillData={this.state.websiteData['skills']} />
 				<a id="4" />

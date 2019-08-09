@@ -7,7 +7,7 @@ class Skills extends Component {
 
 		return (
 			<div className="section section-skills">
-				<div className="title">{skillData.title}</div>
+				<div className="section-title title">{skillData.title}</div>
 			</div>
 		)
 	}

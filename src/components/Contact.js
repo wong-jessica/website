@@ -16,10 +16,10 @@ class Contact extends Component {
 
 		return (
 			<div className="section section-contact">
-				<div className="title">{contactData.title}</div>
-				<div className="message">{contactData.message}</div>
+				<div className="section-title title">{contactData.title}</div>
+				<div className="body">{contactData.message}</div>
 				<Contacts contactData={contactData} />
-				<div className="credits">© 2019 <a href="mailto:jessikw@uci.edu">JESSICA WONG</a></div>
+				<div className="credits subtitle">© 2019 <a href="mailto:jessikw@uci.edu">JESSICA WONG</a></div>
 			</div>
 		);
 	}

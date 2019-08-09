@@ -1,8 +1,32 @@
 .section-about {
-	width: 100%;
-	height: 100vh;
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background-color: #666666;*/
 }
 
-.section-about .background-color {
-	background-color: #5b5b5b;
+/*.section-about .section-background-color {
+}*/
+
+.about-body {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.about-body-images {
+	width: 500px;
+	min-height: 200px;
+	height: 70vh;
+	margin: 15px;
+}
+
+.about-body-description {
+	width: 470px;
+	/*padding: 0 25px;*/
+	margin: 15px;
+	text-align: left;
+	line-height: 25px;
+	font-size: 15px;
 }

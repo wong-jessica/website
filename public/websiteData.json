@@ -1,0 +1,115 @@
+{
+	"navigation": [
+		{
+			"name": "Home",
+			"url": "#0"
+		},
+		{
+			"name": "About",
+			"url": "#1"
+		},
+		{
+			"name": "Portfolio",
+			"url": "#2"
+		},
+		{
+			"name": "Skills",
+			"url": "#3"
+		},
+		{
+			"name": "Contact",
+			"url": "#4"
+		}
+	],
+	"home": {
+		"greeting": "Hey, I'm",
+		"rotatingDescription": [
+			"Jessica Wong.",
+			"A Developer.",
+			"A Creator."
+		],
+		"background": "./images/header6.jpg"
+	},
+	"about": {
+		"title": "About",
+		"description": "I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. With an enthusiasm for the details and a love for making things, I know how to make technology look good and how to make it work efficiently. I am a recent graduate from the University of California, Irvine with a Bachelor's of Science degree in Computer Science. In my free time, I like to create art, I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. With an enthusiasm for the details and a love for making things, I know how to make technology look good and how to make it work efficiently. I am a recent graduate from the University of California, Irvine with a Bachelor's of Science degree in Computer Science. In my free time, I like to create art, ",
+		"imageSlideshow": ["./images/headshot.jpg", "./images/art1.jpg", "./images/art2.jpg"]
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"projects": [
+			{
+				"name": "Nutr.io",
+				"skills": "Java, Google Firebase, Android Studio",
+				"highlight": "Healthy Recipe App",
+				"description": "lorem asdf",
+				"displayImage": "./images/nutrio/cover.jpg",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+			},
+			{
+				"name": "Noted",
+				"skills": "JavaScript, HTML, CSS",
+				"highlight": "Google Chrome Extension",
+				"description": "lorem ipsum ipsumm",
+				"displayImage": "./images/noted/cover2.jpg",
+				"imageSlideshow": ["./images/noted/1.jpg"]
+			},
+			{
+				"name": "ICSearch Engine",
+				"skills": "Python, MySQL, HTML, CSS, Bootstrap",
+				"highlight": "Search Engine",
+				"description": "lorem ipsum",
+				"displayImage": "./images/icsearchengine/cover.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+			},
+			{
+				"name": "Adigami",
+				"skills": "Ruby, HTML, CSS, Material-UI, MySQL, Redis, Heroku",
+				"highlight": "API Deprecation Tracker",
+				"description": "lorem ipsum",
+				"displayImage": "./images/adigami/cover.jpg",
+				"imageSlideshow": ["./images/adigami/1.jpg", "./images/adigami/2.jpg", "./images/adigami/3.jpg", "./images/adigami/4.jpg"]
+			},
+			{
+				"name": "BookDB",
+				"skills": "Java, HTML, CSS, MySQL, JavaScript, jQuery, Apache Tomcat, AWS",
+				"highlight": "E-Commerce Website",
+				"description": "lorem ipsum",
+				"displayImage": "./images/bookdb/cover.png",
+				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+			},
+			{
+				"name": "Othello",
+				"skills": "Python",
+				"highlight": "Strategy Board Game",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"displayImage": "./images/othello/cover.png",
+				"imageSlideshow": ["./images/othello/1.jpg", "./images/othello/2.jpg"]
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills"
+	},
+	"contact": {
+		"title": "Contact",
+		"message": "Let's get in touch and create something great.",
+		"icons": [
+			{
+				"name": "Email",
+				"url": "mailto:jessikw2@uci.edu",
+				"className": "fas fa-envelope-square"
+			},
+			{
+				"name": "LinkedIn",
+				"url": "https://www.linkedin.com/in/wong-jessica/",
+				"className": "fab fa-linkedin"
+			},
+			{
+				"name": "Github",
+				"url": "https://github.com/wong-jessica",
+				"className": "fab fa-github-square"
+			}
+		]
+	}
+}

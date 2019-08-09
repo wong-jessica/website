@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/about.css';
+import Carousel from "./Carousel";
 
 class About extends Component {
 	render() {
@@ -7,11 +8,12 @@ class About extends Component {
 
 		return (
 			<div className="section section-about">
-				<div className="background"></div>
-				<div className="background-color"></div>
-				<div className="title">{aboutData.title}</div>
-				<div className="about-body">
-					
+				<div className="section-background"></div>
+				<div className="section-background-color"></div>
+				<div className="section-title title">{aboutData.title}</div>
+				<div className="about-body body">
+					<div className="about-body-images"><Carousel carouselData={aboutData.imageSlideshow} /></div>
+					<div className="about-body-description">{aboutData.description}</div>
 				</div>
 			</div>
 		)

@@ -10,11 +10,11 @@ class Home extends Component {
 
 		return (
 			<div className="section section-home">
-				<div className="background-color"></div>
-				<div className="background"></div>
+				<div className="section-background-color"></div>
+				<div className="section-background" style={{backgroundImage: `url(${homeData.background})`}}></div>
 				<div className="greeting center">
-					<h3>{greeting}</h3>
-					<h1>{description}</h1>
+					<h3 className="subtitle">{greeting}</h3>
+					<h1 className="title">{description}</h1>
 				</div>
 				<a href="#1" className="scroll-down center"><i className="fa fa-chevron-down fa-3x"></i></a>
 			</div>

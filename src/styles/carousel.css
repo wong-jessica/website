@@ -1,0 +1,34 @@
+.carousel-slides{
+	min-height: inherit;
+	height: inherit;
+	max-height: inherit;
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel {
+	position: relative;
+	height: 100%;
+}
+
+.carousel-slides-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.carousel-slides-overlay i {
+	padding: 10px;
+	color: white;
+	background-color: black;
+	opacity: .3;
+}
+
+.carousel-slides-overlay i:hover {
+	color: gray;
+}
