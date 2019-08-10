@@ -30,5 +30,6 @@
 }
 
 .carousel-slides-overlay i:hover {
-	color: gray;
+	/*color: gray;*/
+	opacity: .5;
 }

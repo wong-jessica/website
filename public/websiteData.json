@@ -32,8 +32,11 @@
 	},
 	"about": {
 		"title": "About",
-		"description": "I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. With an enthusiasm for the details and a love for making things, I know how to make technology look good and how to make it work efficiently. I am a recent graduate from the University of California, Irvine with a Bachelor's of Science degree in Computer Science. In my free time, I like to create art, I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. With an enthusiasm for the details and a love for making things, I know how to make technology look good and how to make it work efficiently. I am a recent graduate from the University of California, Irvine with a Bachelor's of Science degree in Computer Science. In my free time, I like to create art, ",
-		"imageSlideshow": ["./images/headshot.jpg", "./images/art1.jpg", "./images/art2.jpg"]
+		"description": [
+			"I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. I graduated from University of California, Irvine with a Bachelor's of Science degree in computer science and a specialization in informations.",
+			"Here is another paragraph!"
+		],
+		"imageSlideshow": ["./images/about/headshot.jpg", "./images/about/art1.jpg", "./images/about/art2.jpg"]
 	},
 	"portfolio": {
 		"title": "Portfolio",
@@ -59,7 +62,7 @@
 				"skills": "Python, MySQL, HTML, CSS, Bootstrap",
 				"highlight": "Search Engine",
 				"description": "lorem ipsum",
-				"displayImage": "./images/icsearchengine/cover.png",
+				"displayImage": "./images/icsearchengine/cover.jpg",
 				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			},
 			{
@@ -75,7 +78,7 @@
 				"skills": "Java, HTML, CSS, MySQL, JavaScript, jQuery, Apache Tomcat, AWS",
 				"highlight": "E-Commerce Website",
 				"description": "lorem ipsum",
-				"displayImage": "./images/bookdb/cover.png",
+				"displayImage": "./images/bookdb/cover.jpg",
 				"imageSlideshow": ["none", "nonetoo", "nonethree"]
 			},
 			{
@@ -83,13 +86,83 @@
 				"skills": "Python",
 				"highlight": "Strategy Board Game",
 				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-				"displayImage": "./images/othello/cover.png",
+				"displayImage": "./images/othello/cover.jpg",
 				"imageSlideshow": ["./images/othello/1.jpg", "./images/othello/2.jpg"]
 			}
 		]
 	},
 	"skills": {
-		"title": "Skills"
+		"title": "Skills",
+		"icons": [
+			{
+				"name": "Amazon Web Services",
+				"devicon": "amazonwebservices-original"
+			},
+			{
+				"name": "Bootstrap",
+				"devicon": "bootstrap-plain"
+			},
+			{
+				"name": "Chrome DevTools",
+				"devicon": "chrome-original"
+			},
+			{
+				"name": "C",
+				"devicon": "c-original"
+			},
+			{
+				"name": "C++",
+				"devicon": "cplusplus-original"
+			},
+			{
+				"name": "CSS3",
+				"devicon": "css3-original"
+			},
+			{
+				"name": "Git",
+				"devicon": "git-original"
+			},
+			{
+				"name": "GitHub",
+				"devicon": "github-original"
+			},
+			{
+				"name": "HTML5",
+				"devicon": "html5-original"
+			},
+			{
+				"name": "Java",
+				"devicon": "java-original"
+			},
+			{
+				"name": "JavaScript",
+				"devicon": "javascript-original"
+			},
+			{
+				"name": "jQuery",
+				"devicon": "jquery-original"
+			},
+			{
+				"name": "MySQL",
+				"devicon": "mysql-original"
+			},
+			{
+				"name": "Photoshop",
+				"devicon": "photoshop-line"
+			},
+			{
+				"name": "Python",
+				"devicon": "python-original"
+			},
+			{
+				"name": "React",
+				"devicon": "react-original"
+			},
+			{
+				"name": "Tomcat",
+				"devicon": "tomcat-original"
+			}
+		]
 	},
 	"contact": {
 		"title": "Contact",

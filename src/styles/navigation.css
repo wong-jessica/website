@@ -35,7 +35,7 @@
 .nav-collapse i {
 	visibility: hidden;
 	padding: 6px 15px;
-	color: white;
+	color: black;
 	float: right;
 	transition-duration: .3s;
 }
