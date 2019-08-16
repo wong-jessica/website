@@ -1,17 +1,7 @@
 import React, {Component} from 'react';
+import Icons from './Icons';
 import '../styles/skills.css';
 
-const Icons = props => {
-	const icons = props.skillData.icons.map((icon, index) => {
-		return (
-			<div className="skill" key={index}>
-				<img className="skill-image" src={"https://icongr.am/devicon/"+icon.devicon+".svg"} alt={icon.name}/>
-				<div className="skill-name">{icon.name}</div>
-			</div>
-		);
-	});
-	return icons;
-}
 
 class Skills extends Component {
 	render() {
@@ -21,12 +11,13 @@ class Skills extends Component {
 			<div className="section section-skills">
 				<div className="section-title title">{skillData.title}</div>
 				<div className="skill-body body">
-					<Icons skillData={skillData} />
+					<div className="icons">
+						<Icons iconData={skillData.icons} />
+					</div>
 				</div>
 			</div>
 		)
 	}
-	
 }
 
 export default Skills;

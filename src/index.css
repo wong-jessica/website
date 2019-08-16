@@ -79,8 +79,8 @@ i, button {
 }
 
 .title {
-	/*font-family: "Roboto Condensed";*/
-	font-family: Raleway;
+	font-family: "Roboto Condensed";
+	/*font-family: Merriweather;*/
 	font-weight: bold;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;

@@ -14,10 +14,10 @@ class Contact extends Component {
 	render() {
 		const { contactData } = this.props;
 
+				// <div className="body">{contactData.message}</div>
 		return (
-			<div className="section section-contact">
+			<div className="section-contact">
 				<div className="section-title title">{contactData.title}</div>
-				<div className="body">{contactData.message}</div>
 				<Contacts contactData={contactData} />
 				<div className="credits subtitle">© 2019 <a href="mailto:jessikw@uci.edu">JESSICA WONG</a></div>
 			</div>

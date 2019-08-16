@@ -1,0 +1,17 @@
+.icon {
+	margin-right: 10px;
+	text-align: center;
+	max-width: 50px;
+}
+
+.icon-image {
+	width: 25px;
+	/*filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(224deg) brightness(107%) contrast(107%);*/
+}
+
+.icon-name {
+	font-size: .7em;
+	text-transform: uppercase;
+	letter-spacing: 1px !important;
+	color: gray;
+}

@@ -1,15 +1,7 @@
 import React, {Component} from 'react';
 import '../styles/about.css';
 import Carousel from "./Carousel";
-
-const Description = props => {
-	const paragraphs = props.descriptionData.map((paragraph, index) => {
-		return (
-			<p key={index}>{paragraph}</p>
-		);
-	});
-	return paragraphs;
-}
+import Paragraphs from "./Paragraphs";
 
 class About extends Component {
 	render() {
@@ -25,7 +17,7 @@ class About extends Component {
 						<Carousel carouselData={aboutData.imageSlideshow} />
 					</div>
 					<div className="about-body-description">
-						<Description descriptionData={aboutData.description} />
+						<Paragraphs paragraphData={aboutData.description} />
 					</div>
 				</div>
 			</div>

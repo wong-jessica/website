@@ -1,35 +1,43 @@
 .section-contact {
 	/*background-color: #3c3c3c;*/
-	background-color: lightgray;
+	background-color: black;
+	opacity: .9;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
-.section-contact .body {
+.section-contact .title {
+	color: white;
+}
+
+/*.section-contact .body {
 	font-size: calc(1em + .5vw);
 	font-weight: normal;
-	/*color: white;*/
-}
+}*/
 
 .section-contact i {
-	color: gray;
-	margin: 75px 15px 0px 15px;
+	color: white;
+	margin: 15px;
+	/*margin: 75px 15px 0px 15px;*/
 	font-size: calc(3em + 1vw);
 }
 
 .section-contact i:hover {
-	color: white;
+	color: gray;
 }
 
 .section-contact .credits {
 /*	font-family: "Montserrat";
-*/	color: gray;
-	margin-top: 50px;
+*/	color: white;
+	/*margin-top: 50px;*/
+	margin-top: 25px;
 }
 
 .section-contact .credits a {
-	color: gray;
+	color: white;
 	text-decoration: none;
 }
 
 .section-contact .credits a:hover {
-	color: white;
+	color: gray;
 }

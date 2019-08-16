@@ -5,28 +5,32 @@
 }
 
 /*.section-about .section-background-color {
+	background-color: gray;
+	opacity: 1;
 }*/
 
 .about-body {
 	display: flex;
-	flex-flow: row wrap;
 	justify-content: center;
 	max-width: 1200px;
 	margin: auto;
 }
 
 .about-body-images {
-	width: 500px;
-	min-height: 200px;
-	height: 70vh;
-	margin: 15px;
+	height: 75vh;
+	flex: 0 1 600px;
 }
 
 .about-body-description {
-	width: 470px;
-	/*padding: 0 25px;*/
-	margin: 15px;
+	padding: 0 25px;
 	text-align: left;
 	line-height: 25px;
 	font-size: 15px;
+	flex: 0 1 600px;
+}
+
+@media (max-width: 800px) {
+	.about-body {
+		flex-flow: row wrap;
+	}
 }

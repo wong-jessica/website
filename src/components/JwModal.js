@@ -33,6 +33,7 @@ class JwModal extends Component {
         this.state = { isOpen: false };
 
         this.handleClick = this.handleClick.bind(this);
+        this.handleEsc = this.handleEsc.bind(this);
     }
 
     componentDidMount() {
@@ -41,17 +42,27 @@ class JwModal extends Component {
 
         // add this modal instance to the modal service so it's accessible from other components
         JwModal.modals.push(this);
+
+        document.addEventListener('keydown', this.handleEsc);
     }
 
     componentWillUnmount() {
         // remove this modal instance from modal service
         JwModal.modals = JwModal.modals.filter(x => x.props.id !== this.props.id);
         this.element.remove();
+
+        document.removeEventListener('keydown', this.handleEsc);
     }
 
     handleClick(e) {
         // close modal on background click
         if (e.target.className === 'jw-modal') {
+            JwModal.close(this.props.id)(e);
+        }
+    }
+
+    handleEsc(e) {
+        if (e.key === "Escape") {
             JwModal.close(this.props.id)(e);
         }
     }
