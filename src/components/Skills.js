@@ -8,7 +8,7 @@ class Skills extends Component {
 		const { skillData } = this.props;
 
 		return (
-			<div className="section section-skills">
+			<div className="section section-pad section-skills">
 				<div className="section-title title">{skillData.title}</div>
 				<div className="skill-body body">
 					<div className="icons">

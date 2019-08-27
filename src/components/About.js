@@ -8,7 +8,7 @@ class About extends Component {
 		const { aboutData } = this.props;
 
 		return (
-			<div className="section section-about">
+			<div className="section section-pad section-about">
 				<div className="section-background"></div>
 				<div className="section-background-color"></div>
 				<div className="section-title title">{aboutData.title}</div>

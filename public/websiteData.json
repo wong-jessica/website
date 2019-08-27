@@ -28,13 +28,15 @@
 			"A Developer",
 			"A Creator"
 		],
-		"background": "./images/header6.jpg"
+		"background": ""
 	},
 	"about": {
 		"title": "About",
 		"description": [
-			"I am a software engineer and full stack developer with a passion for thoughtful designs and clean code. I graduated from University of California, Irvine with a Bachelor's of Science degree in computer science and a specialization in informations.",
-			"Here is another paragraph!"
+			"I am a software engineer with a passion for thoughtful designs and clean code. I am a recent graduate from University of California, Irvine with a Bachelor's of Science degree in computer science and a specialization in informations.",
+			"I have always been interested in technology and design. As a child, I was fascinated by video games like Diablo II and off-brand Space Invaders (shout out to Chicken Invaders 2: The Next Wave). As well as the structured creativity offered by origami (the art of folding paper). Since then, I have continued to explore my enthusiasm for technology by delving into new development technologies and creative avenues.",
+			"In my free time, I like to read, workout, learn to play instruments, create art/DIYs, and try new things!",
+			"You can also check out some of the art I made by clicking through my pictures! They're inspired by one of my favorite animation studios, Studio Ghibli."
 		],
 		"imageSlideshow": ["./images/about/headshot.jpg", "./images/about/art1.jpg", "./images/about/art2.jpg"]
 	},
@@ -66,7 +68,7 @@
 					"Nutr.io is a meal advising application that provides cheap and easy to make meals. Recipes are uniquely curated for each user based on their dietary restrictions, likes/dislikes, allergies, and ingredients users already have in their pantry."
 				],
 				"displayImage": "./images/nutrio/cover.jpg",
-				"imageSlideshow": [""]
+				"imageSlideshow": ["./images/nutrio/1.jpg","./images/nutrio/2.jpg"]
 			},
 			{
 				"name": "Noted",
@@ -138,7 +140,7 @@
 						"devicon": "css3-original"
 					},
 					{
-						"name": "Material-UI",
+						"name": "Material Design",
 						"devicon": "google-original"
 					},
 					{
@@ -207,7 +209,7 @@
 					"BookDB is an application that allows customers to browse and search through a catalogue of books by their title, author, genre, and year of publication. Customers are also able to add books to their shopping cart and check out."
 				],
 				"displayImage": "./images/bookdb/cover.jpg",
-				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+				"imageSlideshow": ["./images/bookdb/1.jpg", "nonetoo", "nonethree"]
 			},
 			{
 				"name": "Othello",
@@ -300,23 +302,26 @@
 		]
 	},
 	"contact": {
-		"message": "Contact",
-		"title": "Let's get in touch and create something great.",
+		"title": "Contact",
+		"message": "If you like my work, let's get in touch and create something great.",
 		"icons": [
 			{
 				"name": "Email",
 				"url": "mailto:jessikw2@uci.edu",
-				"className": "fas fa-envelope-square"
+				"className": "far fa-envelope",
+				"toolTip": "email"
 			},
 			{
 				"name": "LinkedIn",
 				"url": "https://www.linkedin.com/in/wong-jessica/",
-				"className": "fab fa-linkedin"
+				"className": "fab fa-linkedin-in",
+				"toolTip": "linkedin"
 			},
 			{
 				"name": "Github",
 				"url": "https://github.com/wong-jessica",
-				"className": "fab fa-github-square"
+				"className": "fab fa-github",
+				"toolTip": "github"
 			}
 		]
 	}

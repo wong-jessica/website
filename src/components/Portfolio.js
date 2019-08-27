@@ -37,8 +37,6 @@ const Projects = props => {
 	});
 	return projects;
 }
-							// <Icons iconData={project.skills} />
-							// <div className="subtitle">{project.skills}</div>
 
 class Portfolio extends Component 
 {
@@ -46,7 +44,7 @@ class Portfolio extends Component
 		const {portfolioData} = this.props;
 
 		return (
-			<div className="section section-portfolio">
+			<div className="section section-pad section-portfolio">
 				<div className="section-background"></div>
 				<div className="section-background-color"></div>
 				<div className="section-title title">{portfolioData.title}</div>

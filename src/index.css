@@ -1,15 +1,11 @@
 html {
 	max-width: 100%;
 	scroll-behavior: smooth;
-	/*background-color: #5b5b5b;*/
 }
 
 body {
-	/* font-size: for local development */
 	font-size: .8em;
-	/*font-family: "Roboto Condensed", sans-serif;*/
 	margin: 0px;
-	/*background-image: linear-gradient(white, gray);*/
 }
 
 i, button {
@@ -46,17 +42,20 @@ i, button {
 	position: relative;
 	width: 100%;
 	text-align: center;
+}
+
+.section-pad {
 	padding-bottom: 150px;
 }
 
 .section-title {
-	/*font-family: "Source Sans Pro", sans-serif;*/
-	/*font-family: Lato;*/
 	font-size: calc(2em + 2vw);
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 50px 0px 50px 0px;
-	color: black;
+	/*color: black;*/
+	/*color: #2cb5e8;*/
+	color: gray;
 	position: relative;
 }
 
@@ -67,7 +66,6 @@ i, button {
 	background-size: cover;
 	background-position: center center;
 	z-index: -1;
-	/*opacity: 1;*/
 }
 
 .section-background-color {
@@ -80,25 +78,18 @@ i, button {
 
 .title {
 	font-family: "Roboto Condensed";
-	/*font-family: Merriweather;*/
 	font-weight: bold;
-	letter-spacing: 1.5px;
+	letter-spacing: 5px;
 	text-transform: uppercase;
 }
 
 .subtitle {
-	/*font-family: "Open Sans";*/
-	/*font-family: "Roboto Slab";*/
 	font-family: "Roboto Condensed";
-	/*font-family: Merriweather;*/
-	/*font-family: Raleway;*/
 	letter-spacing: 2px;
 }
 
 .body {
 	font-family: Raleway;
-	/*font-family: "Roboto";*/
-	/*font-family: "Open Sans";*/
 }
 
 button {

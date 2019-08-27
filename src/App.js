@@ -27,10 +27,8 @@ class App extends Component {
 				</div>
 				<a id="1" />
 				<About aboutData={this.state.websiteData['about']} />
-				<hr/>
 				<a id="2" />
 				<Portfolio portfolioData={this.state.websiteData['portfolio']} />
-				<hr/>
 				<a id="3" />
 				<Skills skillData={this.state.websiteData['skills']} />
 				<a id="4" />

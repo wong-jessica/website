@@ -1,28 +1,30 @@
 import React, {Component} from 'react';
 import '../styles/contact.css';
 
-const Contacts = props => {
-	const contacts = props.contactData.icons.map((contact, index) => {
+const Footer = props => {
+	const footerContact = props.contactData.icons.map((contact, index) => {
 		return (
-			<a href={contact.url} key={index} className="section-icon"><i className={contact.className}></i></a>
+			<span title={contact.toolTip}><a href={contact.url} aria-label={contact.toolTip} key={index} className="section-icon"><i className={contact.className}></i></a></span>
 		);
 	});
-	return contacts;
+	return footerContact;
 }
 
 class Contact extends Component {
 	render() {
 		const { contactData } = this.props;
 
-				// <div className="body">{contactData.message}</div>
 		return (
-			<div className="section-contact">
-				<div className="section-title title">{contactData.title}</div>
-				<Contacts contactData={contactData} />
-				<div className="credits subtitle">© 2019 <a href="mailto:jessikw@uci.edu">JESSICA WONG</a></div>
+			<div className="section section-contact">
+				<div className="section-footer">
+					<Footer contactData={contactData} />
+					<div className="credits subtitle">COPYRIGHT © 2019 <a href="mailto:jessikw@uci.edu">JESSICA WONG</a></div>
+				</div>
 			</div>
 		);
 	}
+				// <div className="section-title title">{contactData.title}</div>
+				// <div className="body">{contactData.message}</div>
 	
 }
 
