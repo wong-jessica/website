@@ -17,14 +17,13 @@ class App extends Component {
 		};
 	}
 
+
 	render() {
 		return (
 			<div className="App">
 				<a id="0" />
 				<Home homeData={this.state.websiteData['home']} /> 
-				<div className="sticky">
-					<Navigation navData={this.state.websiteData['navigation']} />
-				</div>
+				<Navigation navData={this.state.websiteData['navigation']} />
 				<a id="1" />
 				<About aboutData={this.state.websiteData['about']} />
 				<a id="2" />

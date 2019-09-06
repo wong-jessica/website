@@ -12,12 +12,6 @@ i, button {
 	transition-duration: .3s;
 }
 
-.sticky {
-	position: sticky;
-	top: 0;
-	z-index: 10;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

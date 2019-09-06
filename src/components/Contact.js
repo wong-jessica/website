@@ -4,7 +4,7 @@ import '../styles/contact.css';
 const Footer = props => {
 	const footerContact = props.contactData.icons.map((contact, index) => {
 		return (
-			<span title={contact.toolTip}><a href={contact.url} aria-label={contact.toolTip} key={index} className="section-icon"><i className={contact.className}></i></a></span>
+			<span title={contact.toolTip} key={index}><a href={contact.url} aria-label={contact.toolTip} className="section-icon"><i className={contact.className}></i></a></span>
 		);
 	});
 	return footerContact;

@@ -1,8 +1,8 @@
 .section-home {
 	height: 100vh;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .section-home .section-background {
@@ -12,13 +12,13 @@
 }
 
 .section-home .section-background-color {
-	/*background-color: black;*/
-	/*background-image: radial-gradient(black, black, gray);*/
 	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 .section-home .greeting {
 	color: white;
+	margin-top: 30vh;
+	height: 10em;
 }
 
 .section-home .greeting h1 {
@@ -33,6 +33,7 @@
 }
 
 .section-home .scroll-down {
+	margin-top: 40vh;
 	color: white;
 }
 

@@ -25,7 +25,7 @@ class Navigation extends Component {
 		});
 
 		return (
-			<div className="navbar">
+			<div className="navbar sticky">
 				{expandedLinks}
 				<div className="nav-collapse">
 					<i className="fa fa-bars fa-2x" onClick={this.navToggle}></i>
