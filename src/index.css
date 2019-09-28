@@ -6,6 +6,7 @@ html {
 body {
 	font-size: .8em;
 	margin: 0px;
+	background-color: #f8f7f8;
 }
 
 i, button {
@@ -49,7 +50,8 @@ i, button {
 	padding: 50px 0px 50px 0px;
 	/*color: black;*/
 	/*color: #2cb5e8;*/
-	color: gray;
+	/* color: gray; */
+	color: black;
 	position: relative;
 }
 

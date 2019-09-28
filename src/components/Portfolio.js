@@ -7,17 +7,24 @@ import '../styles/portfolio.css';
 
 const Projects = props => {
 	const projects = props.portfolioData.projects.map((project, index) => {
+		const projectLinks = project.links.map(link => {
+			return <a key={link.name} href={link.url}><button>{link.name.toUpperCase()}</button></a>
+		});
+		// console.log(projectLinks);
+		
+		const projectID = `project${index}`;
+
 		return (
-			<div className="project" key={index}>
+			<div className="project" key={projectID}>
 				<img src={project.displayImage} alt="project"/>
 				<div className="project-overlay">
 					<div>
 						<div className="project-title title">{project.name}</div>
 						<div className="project-subtitle subtitle">{project.highlight}</div>
-						<button onClick={JwModal.open(index)}>LEARN MORE</button>
+						<button onClick={JwModal.open(projectID)}>LEARN MORE</button>
 					</div>
 				</div>
-				<JwModal id={index}>
+				<JwModal id={projectID}>
 					<div className="project-modal">
 						<div className="project-images">
 							<Carousel carouselData={project.imageSlideshow} />
@@ -29,7 +36,10 @@ const Projects = props => {
 							</div>
 							<div className="project-body body"><Paragraphs paragraphData={project.description} /></div>
 						</div>
-						<a href="#" className="project-close" onClick={JwModal.close(index)}><i className="fa fa-times fa-2x"></i></a>
+						<div className="project-buttons">
+							<div className="project-links">{projectLinks}</div>
+							<button className="project-close" onClick={JwModal.close(projectID)}><i className="fa fa-times fa-2x"></i></button>
+						</div>
 					</div>
 				</JwModal>
 			</div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/home.css';
-import TypeWriter from './TypeWriter.js';
+// import TypeWriter from './TypeWriter.js';
 
 class Home extends Component {
 

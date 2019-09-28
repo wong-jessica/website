@@ -21,16 +21,16 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<a id="0" />
+				<div id="0" />
 				<Home homeData={this.state.websiteData['home']} /> 
 				<Navigation navData={this.state.websiteData['navigation']} />
-				<a id="1" />
+				<div id="1" />
 				<About aboutData={this.state.websiteData['about']} />
-				<a id="2" />
+				<div id="2" />
 				<Portfolio portfolioData={this.state.websiteData['portfolio']} />
-				<a id="3" />
+				<div id="3" />
 				<Skills skillData={this.state.websiteData['skills']} />
-				<a id="4" />
+				<div id="4" />
 				<Contact contactData={this.state.websiteData['contact']} />
 			</div>
 		)

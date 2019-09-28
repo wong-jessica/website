@@ -68,7 +68,13 @@
 					"Nutr.io is a meal advising application that provides cheap and easy to make meals. Recipes are uniquely curated for each user based on their dietary restrictions, likes/dislikes, allergies, and ingredients users already have in their pantry."
 				],
 				"displayImage": "./images/nutrio/cover.jpg",
-				"imageSlideshow": ["./images/nutrio/1.jpg","./images/nutrio/2.jpg"]
+				"imageSlideshow": ["./images/nutrio/1.jpg","./images/nutrio/2.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			},
 			{
 				"name": "Noted",
@@ -91,7 +97,13 @@
 					"Noted is a Google Chrome extension that allows users to easily add, delete, and save notes from any webpage. Notes can be customized to different sizes, colors, and font-styles as well."
 				],
 				"displayImage": "./images/noted/cover2.jpg",
-				"imageSlideshow": ["./images/noted/1.jpg"]
+				"imageSlideshow": ["./images/noted/1.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			},
 			{
 				"name": "ICSearch Engine",
@@ -122,7 +134,13 @@
 					"ICSearch Engine is a search engine that indexes and accesses all sites within the Information & Computer Science (ICS) subdomain of the University of California, Irvine (UCI) website."
 				],
 				"displayImage": "./images/icsearchengine/cover.jpg",
-				"imageSlideshow": ["none", "nonetoo", "nonethree"]
+				"imageSlideshow": ["./images/icsearchengine/1.jpg", "nonetoo", "nonethree"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			},
 			{
 				"name": "Adigami",
@@ -166,7 +184,13 @@
 					"One functionality offered is Nightingale, which is an API deprecation and sunset date tracker. This informs API users about when their API version will be turned off (deprecated) and when it will no longer be available (sunset)."
 				],
 				"displayImage": "./images/adigami/cover.jpg",
-				"imageSlideshow": ["./images/adigami/1.jpg", "./images/adigami/2.jpg", "./images/adigami/3.jpg", "./images/adigami/4.jpg"]
+				"imageSlideshow": ["./images/adigami/1.jpg", "./images/adigami/2.jpg", "./images/adigami/3.jpg", "./images/adigami/4.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			},
 			{
 				"name": "BookDB",
@@ -209,7 +233,13 @@
 					"BookDB is an application that allows customers to browse and search through a catalogue of books by their title, author, genre, and year of publication. Customers are also able to add books to their shopping cart and check out."
 				],
 				"displayImage": "./images/bookdb/cover.jpg",
-				"imageSlideshow": ["./images/bookdb/1.jpg", "nonetoo", "nonethree"]
+				"imageSlideshow": ["./images/bookdb/1.jpg", "nonetoo", "nonethree"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			},
 			{
 				"name": "Othello",
@@ -224,7 +254,13 @@
 					"Othello (also known as Reversi) is a 2 player strategy board game where players take turns placing colored disks on the board in order to flip over their opponent's disks. The objective is to have the most colored disks on the board."
 				],
 				"displayImage": "./images/othello/cover.jpg",
-				"imageSlideshow": ["./images/othello/1.jpg", "./images/othello/2.jpg"]
+				"imageSlideshow": ["./images/othello/1.jpg", "./images/othello/2.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
 			}
 		]
 	},

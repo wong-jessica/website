@@ -14,10 +14,12 @@
 	justify-content: center;
 	max-width: 1200px;
 	margin: auto;
+	/* align-items: center; */
 }
 
 .about-body-images {
 	height: 75vh;
+	max-height: 600px;
 	flex: 0 1 600px;
 }
 
