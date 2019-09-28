@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wong-jessica.github.io/website",
+  "homepage": "http://wong-jessica.me",
   "dependencies": {
     "nuka-carousel": "^4.5.9",
     "react": "^16.8.6",
