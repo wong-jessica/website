@@ -9,10 +9,9 @@
 	background-image: url("/images/code.jpg");
 }*/
 
-/* .section-portfolio .section-background-color {
-	background-color: #ededed;
-	background-color: #eff7f9;
-} */
+.section-portfolio .section-background-color {
+	background-color: #f1f0f1;
+}
 
 .portfolio-body {
 	display: flex;
@@ -81,7 +80,8 @@
 
 .project-overlay button {
 	background-color: white;
-	border: 2px solid gray;
+	border: none;
+	box-shadow: 0 0 3px gray;
 	padding: 10px 15px;
 	margin-top: 30px;
 }
@@ -122,13 +122,6 @@
 	font-size: 30px;
 }
 
-/*.project-modal .project-details .project-subtitle {
-	border-bottom: 1px solid lightgray;
-	font-size: 15px;
-	color: gray;
-	padding-bottom: 15px;
-}*/
-
 .project-modal .project-details .project-skills {
 	display: flex;
 	justify-content: flex-start;
@@ -148,16 +141,15 @@
 }
 
 .project-modal .project-buttons .project-links button {
-	/* background-color: gray; */
-	border: 2px solid lightgray;
-	/* color: white; */
-	padding: 5px 15px;
-	margin: 10px 20px;
+	background-color: white;
+	border: none;
+	box-shadow: 0 0 3px gray;
+	padding: 7px 15px;
+	margin: 10px 0 10px 20px;
 }
 
 .project-modal .project-buttons .project-links button:hover {
 	background-color: gray;
-	border-color: gray;
 	color: white;
 }
 

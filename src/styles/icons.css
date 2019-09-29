@@ -1,7 +1,7 @@
 .icon {
 	margin-right: 10px;
 	text-align: center;
-	max-width: 50px;
+	/* max-width: 50px; */
 }
 
 .icon-image {
@@ -14,4 +14,14 @@
 	text-transform: uppercase;
 	letter-spacing: 1px !important;
 	color: gray;
+}
+
+.icon-label {
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
+}
+
+.icon-label .icon-image {
+	margin: 3px 5px;
 }

@@ -18,7 +18,7 @@ class Home extends Component {
 					<h3 className="subtitle">{greeting}</h3>
 					<h1 className="title">{description}</h1>
 				</div>
-				<a href="#1" className="scroll-down" aria-label="Scroll to next section"><i className="fa fa-chevron-down fa-3x"></i></a>
+				<div><a href="#1" className="scroll-down" aria-label="Scroll to next section"><i className="fa fa-chevron-down fa-3x"></i></a></div>
 			</div>
 		)
 	}

@@ -77,10 +77,12 @@ class Carousel extends Component {
 		return (
 			<div className="carousel">
 		      <CarouselSlide carouselData={carouselData} activeIndex={this.state.activeIndex} />
-		      <div className="carousel-slides-overlay">
-		        <CarouselLeftArrow onClick={e => this.goToPrevSlide(e)}/>
-		        <CarouselRightArrow onClick={e => this.goToNextSlide(e)}/>
-		      </div>   
+		      {carouselData.length !== 1 &&
+				<div className="carousel-slides-overlay">
+					<CarouselLeftArrow onClick={e => this.goToPrevSlide(e)}/>
+					<CarouselRightArrow onClick={e => this.goToNextSlide(e)}/>
+				</div>
+			  }   
 		    </div>
 		)
 	}

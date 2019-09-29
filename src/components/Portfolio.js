@@ -7,11 +7,10 @@ import '../styles/portfolio.css';
 
 const Projects = props => {
 	const projects = props.portfolioData.projects.map((project, index) => {
-		const projectLinks = project.links.map(link => {
+		const projectLinks = project.links ? project.links.map(link => {
 			return <a key={link.name} href={link.url}><button>{link.name.toUpperCase()}</button></a>
-		});
-		// console.log(projectLinks);
-		
+		}) : null;
+	
 		const projectID = `project${index}`;
 
 		return (
@@ -32,7 +31,7 @@ const Projects = props => {
 						<div className="project-details">
 							<div className="project-header">
 								<div className="project-title title">{project.name}</div>
-								<div className="project-skills"><Icons iconData={project.skills} /></div>
+								<div className="project-skills"><Icons iconData={project.skills} iconLabel="false" /></div>
 							</div>
 							<div className="project-body body"><Paragraphs paragraphData={project.description} /></div>
 						</div>

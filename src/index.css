@@ -48,10 +48,8 @@ i, button {
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 50px 0px 50px 0px;
-	/*color: black;*/
-	/*color: #2cb5e8;*/
-	/* color: gray; */
-	color: black;
+	/* color: black; */
+	color: #24151a;
 	position: relative;
 }
 

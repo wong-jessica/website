@@ -4,7 +4,8 @@
 */
 .section-footer {
 	/*background-color: black;*/
-	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	/* background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+	background-image: linear-gradient(140deg, #355c7d 0%,#6c5b7b 50%,#c06c84 100% );
 	padding: 75px 0 50px 0;
 }
 
@@ -32,12 +33,12 @@
 }
 
 .section-footer .credits {
-	color: gray;
+	color: lightgray;
 	margin-top: 50px;
 }
 
 .section-footer .credits a {
-	color: gray;
+	color: lightgray;
 	text-decoration: none;
 }
 
