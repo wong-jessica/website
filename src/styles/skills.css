@@ -13,12 +13,14 @@
 	justify-content: center;
 }
 
-.skill-title {
-	font-size: 1.5em;
-}
-
 .skill-table {
 	display: flex;
-	justify-content: space-around;
-	text-align: left;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+}
+
+.skill-section-title {
+	font-size: 1.5em;
+	max-width: 200px;
+	margin: .5em;
 }

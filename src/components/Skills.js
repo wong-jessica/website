@@ -5,9 +5,11 @@ import '../styles/skills.css';
 const SkillDisplay = ({sections}) => {
 	const skillSections = sections.map(section => {
 		return (
-			<div key={section.title}>
-				<div className="skill-title title">{section.title}</div>
-				<Icons iconData={section.data} iconLabel="true" />
+			<div className="skill-section" key={section.title}>
+				<div className="skill-section-title title">{section.title}</div>
+				<div className="skill-section-body">
+					<Icons iconData={section.data} iconLabel="true" />
+				</div>
 			</div>
 		);
 	});

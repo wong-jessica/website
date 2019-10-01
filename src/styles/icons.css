@@ -6,7 +6,7 @@
 
 .icon-image {
 	width: 25px;
-	/*filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(224deg) brightness(107%) contrast(107%);*/
+	/* filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(224deg) brightness(107%) contrast(107%); */
 }
 
 .icon-name {
@@ -20,6 +20,7 @@
 	font-size: 1.2em;
 	display: flex;
 	align-items: center;
+	text-align: left;
 }
 
 .icon-label .icon-image {
