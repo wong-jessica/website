@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/icons.css';
 
 const IconDisplay = ({icon, iconLabel}) => {
-	const link = `https://icongr.am/${icon.icongram}.svg`;
+	const link = `https://icongr.am/${icon.icongram}.svg?size=25`;
 	
 	if(iconLabel === "true") {
 		return (
