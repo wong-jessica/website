@@ -1,0 +1,487 @@
+{
+	"navigation": [
+		{
+			"name": "Home",
+			"url": "#0"
+		},
+		{
+			"name": "About",
+			"url": "#1"
+		},
+		{
+			"name": "Portfolio",
+			"url": "#2"
+		},
+		{
+			"name": "Skills",
+			"url": "#3"
+		},
+		{
+			"name": "Contact",
+			"url": "#4"
+		}
+	],
+	"home": {
+		"greeting": "Hey, I'm",
+		"rotatingDescription": [
+			"Jessica Wong",
+			"A Developer",
+			"A Creator"
+		],
+		"background": ""
+	},
+	"about": {
+		"title": "About",
+		"description": [
+			"I am a software engineer with a passion for thoughtful designs and clean code. I am a recent graduate from University of California, Irvine with a Bachelor's of Science degree in computer science and a specialization in informations.",
+			"I have always been interested in technology and design. As a child, I was fascinated by video games like Diablo II and off-brand Space Invaders (shout out to Chicken Invaders 2: The Next Wave). As well as the structured creativity offered by origami (the art of folding paper). Since then, I have continued to explore my enthusiasm for technology by delving into new development technologies and creative avenues.",
+			"In my free time, I like to read, workout, learn to play instruments, create art/DIYs, and try new things!"
+		],
+		"imageSlideshow": ["./images/about/headshot.jpg"]
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"projects": [
+			{
+				"name": "Javascript30",
+				"skills": [
+					{
+						"name": "JavaScript",
+						"icongram": "devicon/javascript-original"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					}
+				],
+				"highlight": "JS Coding Challenge",
+				"description": [
+					"Javascript30 is a 30 day vanilla Javascript coding challenge. The challenges are completed without frameworks, compilers, libraries, or boilerplates. Each project explores different functionalities that can be achieved with vanilla Javascript, such as clocks, animations, speech recognition, and games."
+				],
+				"displayImage": "./images/javascript30/cover.png",
+				"imageSlideshow": ["./images/javascript30/1.jpg"],
+				"links": [
+					{
+						"name": "Demo",
+						"url": "https://wong-jessica.github.io/Javascript30/"
+					},
+					{
+						"name": "Github",
+						"url": "https://github.com/wong-jessica/Javascript30"
+					}
+				]
+			},
+			{
+				"name": "Nutr.io",
+				"skills": [
+					{
+						"name": "Android Studio",
+						"icongram": "devicon/android-original"
+					},
+					{
+						"name": "Java",
+						"icongram": "devicon/java-original"
+					},
+					{
+						"name": "Google Firebase",
+						"icongram": "material/firebase"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					}
+				],
+				"highlight": "Healthy Food App",
+				"description": [
+					"Nutr.io is a meal advising application that provides cheap and easy to make meals. Recipes are uniquely curated for each user based on their dietary restrictions, likes/dislikes, allergies, and ingredients users already have in their pantry."
+				],
+				"displayImage": "./images/nutrio/cover.png",
+				"imageSlideshow": ["./images/nutrio/1.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": "https://github.com/wong-jessica/Nutr.io"
+					}
+				]
+			},
+			{
+				"name": "Noted",
+				"skills": [
+					{
+						"name": "JavaScript",
+						"icongram": "devicon/javascript-original"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					}
+				],
+				"highlight": "Google Chrome Extension",
+				"description": [
+					"Noted is a Google Chrome extension that allows users to easily add, delete, and save notes from any webpage. Notes can be customized to different sizes, colors, and font-styles as well."
+				],
+				"displayImage": "./images/noted/cover.png",
+				"imageSlideshow": ["./images/noted/1.jpg"]
+			},
+			{
+				"name": "ICSearch Engine",
+				"skills": [
+					{
+						"name": "Python",
+						"icongram": "devicon/python-original"
+					},
+					{
+						"name": "Flask",
+						"icongram": "simple/flask"
+					},
+					{
+						"name": "MySQL",
+						"icongram": "devicon/mysql-original"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					},
+					{
+						"name": "Bootstrap",
+						"icongram": "devicon/bootstrap-plain"
+					}
+				],
+				"highlight": "Search Engine",
+				"description": [
+					"ICSearch Engine is a search engine that indexes and accesses all sites within the Information & Computer Science (ICS) subdomain of the University of California, Irvine (UCI) website."
+				],
+				"displayImage": "./images/icsearchengine/cover.png",
+				"imageSlideshow": ["./images/icsearchengine/1.jpg"]
+			},
+			{
+				"name": "Adigami",
+				"skills": [
+					{
+						"name": "Ruby",
+						"icongram": "devicon/ruby-original"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					},
+					{
+						"name": "Material Design",
+						"icongram": "simple/materialdesign"
+					},
+					{
+						"name": "MySQL",
+						"icongram": "devicon/mysql-original"
+					},
+					{
+						"name": "Twitter API",
+						"icongram": "devicon/twitter-original"
+					},
+					{
+						"name": "Redis",
+						"icongram": "devicon/redis-original"
+					},
+					{
+						"name": "Heroku",
+						"icongram": "devicon/heroku-original"
+					}
+				],
+				"highlight": "Digital Media Analytics",
+				"description": [
+					"Adigami specializes in helping companies collect and visualize analytics data from all their digital media platforms. Adigami offers customized dashboards for monitoring data.",
+					"One functionality offered is Nightingale, which is an API deprecation and sunset date tracker. This informs API users about when their API version will be turned off (deprecated) and when it will no longer be available (sunset)."
+				],
+				"displayImage": "./images/adigami/cover.png",
+				"imageSlideshow": ["./images/adigami/1.jpg", "./images/adigami/2.jpg", "./images/adigami/3.jpg", "./images/adigami/4.jpg"],
+				"links": [
+					{
+						"name": "Website",
+						"url": "http://www.adigami.com/"
+					}
+				]
+			},
+			{
+				"name": "BookDB",
+				"skills": [
+					{
+						"name": "Java",
+						"icongram": "devicon/java-original"
+					},
+					{
+						"name": "HTML",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					},
+					{
+						"name": "MySQL",
+						"icongram": "devicon/mysql-original"
+					},
+					{
+						"name": "JavaScript",
+						"icongram": "devicon/javascript-original"
+					},
+					{
+						"name": "jQuery",
+						"icongram": "devicon/jquery-original"
+					},
+					{
+						"name": "Tomcat",
+						"icongram": "devicon/tomcat-original"
+					},
+					{
+						"name": "AWS",
+						"icongram": "devicon/amazonwebservices-original"
+					}
+				],
+				"highlight": "E-Commerce Website",
+				"description": [
+					"BookDB is an application that allows customers to browse and search through a catalogue of books by their title, author, genre, and year of publication. Customers are also able to add books to their shopping cart and check out."
+				],
+				"displayImage": "./images/bookdb/cover.png",
+				"imageSlideshow": ["./images/bookdb/1.jpg"],
+				"links": [
+					{
+						"name": "Github",
+						"url": ""
+					}
+				]
+			},
+			{
+				"name": "Othello",
+				"skills": [
+					{
+						"name": "Python",
+						"icongram": "devicon/python-original"
+					}
+				],
+				"highlight": "Strategy Board Game",
+				"description": [
+					"Othello (also known as Reversi) is a 2 player strategy board game where players take turns placing colored disks on the board in order to flip over their opponent's disks. The objective is to have the most colored disks on the board."
+				],
+				"displayImage": "./images/othello/cover.png",
+				"imageSlideshow": ["./images/othello/1.jpg", "./images/othello/2.jpg"]
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills",
+		"icons": [
+			{
+				"name": "Amazon Web Services",
+				"icongram": "amazonwebservices-original"
+			},
+			{
+				"name": "Bootstrap",
+				"icongram": "bootstrap-plain"
+			},
+			{
+				"name": "Chrome DevTools",
+				"icongram": "chrome-original"
+			},
+			{
+				"name": "C",
+				"icongram": "c-original"
+			},
+			{
+				"name": "C++",
+				"icongram": "cplusplus-original"
+			},
+			{
+				"name": "CSS3",
+				"icongram": "css3-original"
+			},
+			{
+				"name": "Git",
+				"icongram": "git-original"
+			},
+			{
+				"name": "GitHub",
+				"icongram": "github-original"
+			},
+			{
+				"name": "HTML5",
+				"icongram": "html5-original"
+			},
+			{
+				"name": "Java",
+				"icongram": "java-original"
+			},
+			{
+				"name": "JavaScript",
+				"icongram": "javascript-original"
+			},
+			{
+				"name": "jQuery",
+				"icongram": "jquery-original"
+			},
+			{
+				"name": "MySQL",
+				"icongram": "mysql-original"
+			},
+			{
+				"name": "Photoshop",
+				"icongram": "photoshop-plain"
+			},
+			{
+				"name": "Python",
+				"icongram": "python-original"
+			},
+			{
+				"name": "React",
+				"icongram": "react-original"
+			},
+			{
+				"name": "Tomcat",
+				"icongram": "tomcat-original"
+			}
+		],
+		"sections": [
+			{
+				"title": "Languages",
+				"data": [
+					{
+						"name": "JavaScript",
+						"icongram": "devicon/javascript-original"
+					},
+					{
+						"name": "Java",
+						"icongram": "devicon/java-original"
+					},
+					{
+						"name": "Python",
+						"icongram": "devicon/python-original"
+					},
+					{
+						"name": "HTML5",
+						"icongram": "devicon/html5-original"
+					},
+					{
+						"name": "CSS3",
+						"icongram": "devicon/css3-original"
+					},
+					{
+						"name": "C",
+						"icongram": "devicon/c-original"
+					},
+					{
+						"name": "C++",
+						"icongram": "devicon/cplusplus-original"
+					}
+				]
+			},
+			{
+				"title": "Libraries / Frameworks",
+				"data": [
+					{
+						"name": "jQuery",
+						"icongram": "devicon/jquery-original"
+					},
+					{
+						"name": "React",
+						"icongram": "devicon/react-original"
+					},
+					{
+						"name": "Flask",
+						"icongram": "simple/flask"
+					},
+					{
+						"name": "Bootstrap",
+						"icongram": "devicon/bootstrap-plain"
+					},
+					{
+						"name": "Google Material Design",
+						"icongram": "simple/materialdesign"
+					}
+				]
+			},
+			{
+				"title": "Tools / Other",
+				"data": [
+					{
+						"name": "Git",
+						"icongram": "devicon/git-original"
+					},
+					{
+						"name": "GitHub",
+						"icongram": "devicon/github-original"
+					},
+					{
+						"name": "Amazon Web Services",
+						"icongram": "devicon/amazonwebservices-original"
+					},
+					{
+						"name": "Google Firebase",
+						"icongram": "material/firebase"
+					},
+					{
+						"name": "MySQL",
+						"icongram": "devicon/mysql-original"
+					},
+					{
+						"name": "Android Studio",
+						"icongram": "devicon/android-original"
+					},
+					{
+						"name": "Chrome DevTools",
+						"icongram": "devicon/chrome-original"
+					},
+					{
+						"name": "Apache Tomcat",
+						"icongram": "devicon/tomcat-original"
+					},
+					{
+						"name": "Photoshop",
+						"icongram": "devicon/photoshop-plain"
+					}
+				]
+			}
+		]
+	},
+	"contact": {
+		"title": "Contact",
+		"message": "If you like my work, let's get in touch and create something great.",
+		"icons": [
+			{
+				"name": "Email",
+				"url": "mailto:jessikw2@uci.edu",
+				"className": "far fa-envelope",
+				"toolTip": "email"
+			},
+			{
+				"name": "LinkedIn",
+				"url": "https://www.linkedin.com/in/wong-jessica/",
+				"className": "fab fa-linkedin-in",
+				"toolTip": "linkedin"
+			},
+			{
+				"name": "Github",
+				"url": "https://github.com/wong-jessica",
+				"className": "fab fa-github",
+				"toolTip": "github"
+			}
+		]
+	}
+}
